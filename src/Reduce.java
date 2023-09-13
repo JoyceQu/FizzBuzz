@@ -4,7 +4,7 @@ public class Reduce {
         int count = 0;
 
         while (n > 0) {
-            count ++;
+            count++;
 
             // Find out if n is divisible by 2
             boolean divisibleBy2 = n % 2 == 0;
@@ -13,7 +13,7 @@ public class Reduce {
             if (divisibleBy2) {
                 n = n / 2;
             } else {
-                n --;
+                n--;
             }
         }
 
